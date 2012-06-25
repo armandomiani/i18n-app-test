@@ -1,0 +1,8 @@
+en:
+  routes:
+    # you can leave empty locales, for example the default one
+pt:
+  routes:
+    about: sobre
+    resume: curriculo
+    contact: contato

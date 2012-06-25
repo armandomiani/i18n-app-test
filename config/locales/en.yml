@@ -1,6 +1,11 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
 en:
+  root_link: "Home"	
   hello_world: "Hello world"
   hello_flash: "Hello flash!"
+  about_header: "About Me"
+  about_text: "This page is about me."
+  resume_header: "Resume"
+  resume_text: "This is my resume."
+  contact_header: "Contact Me"
+  contact_text: "Get in touch with me."
+  other_language_version: "Site em Português"

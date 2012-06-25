@@ -1,0 +1,23 @@
+<div>
+	<ul>
+
+		<% if I18n.locale.to_s  == "en" %>
+
+		<li><%= link_to t(:root_link), root_en_path %></li>
+		<li><%= link_to t(:about_header), about_en_path %></l1>
+		<li><%= link_to t(:contact_header), contact_en_path %></l1>
+		<li><%= link_to t(:resume_header), resume_en_path %></l1>
+		<li><%= link_to t(:other_language_version), root_pt_path %></l1>
+
+		<% else %>
+
+		<li><%= link_to t(:root_link), root_pt_path %></li>
+		<li><%= link_to t(:about_header), about_pt_path %></l1>
+		<li><%= link_to t(:contact_header), contact_pt_path %></l1>
+		<li><%= link_to t(:resume_header), resume_pt_path %></l1>
+		<li><%= link_to t(:other_language_version), root_en_path %></l1>
+
+		<% end %>
+
+	</ul>
+</div>
